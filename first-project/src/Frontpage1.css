@@ -1,0 +1,58 @@
+nav{
+    background-color: blue;
+
+}
+nav .navbar-brand{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+ul{
+
+margin-left: 1200px;
+font-weight: bolder;
+
+}
+h4{
+    margin-right: 300px;
+}
+.box{
+    width:800px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-left: -1400px;
+}
+.box i{
+    font-size: 20px;
+    color: #777;;
+}
+
+.box input{
+ flex: 1;
+ background-color: white;
+ border: none;
+
+}
+.circle{
+    font-size: 30px;
+    margin-left: 120px;
+}
+.message{
+    font-size: 30px;
+    margin-left: 25px;
+}
+.notification{
+    font-size: 30px;
+    margin-left: 25px;
+}
+.pic{
+    font-size: 30px;
+    margin-left: 95px;
+    clip-path: circle();
+    background-position-y: 20px;
+}
